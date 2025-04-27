@@ -8,7 +8,7 @@ import {
   Facebook,
   Instagram,
   Youtube,
-  Telegram
+  MessageCircle // Заменил Telegram на MessageCircle
 } from "lucide-react";
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
                 <Youtube className="h-5 w-5" />
               </a>
               <a href="#" className="text-white hover:text-marine-light">
-                <Telegram className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" />
               </a>
             </div>
           </div>
